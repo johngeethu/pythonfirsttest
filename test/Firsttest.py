@@ -1,8 +1,14 @@
 import pytest
 
-def func(x):
+def add(x):
     return x + 1
 
+def subtract(x):
+    return x - 1
 
-def test_answer():
-    assert func(3) == 5
+
+def test_add():
+    assert add(3) == 4
+
+def test_subtract():
+    assert subtract(9) == 8
