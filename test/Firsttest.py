@@ -17,4 +17,4 @@ def test_subtract():
     assert subtract(9) == 8
 
 def test_multiply():
-    assert multiply(3,4) == 12
+    assert multiply(3,5) == 15
